@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.product p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.product p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.quantity label {
+  font-size: 16px;
+}
+
+.quantity input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+}
+
+.add-to-cart button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}

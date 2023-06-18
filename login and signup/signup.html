@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Authentication class</title>
+  </head>
+  <body>
+    <section class="container forms">
+      <div class="form login">
+        <div class="form-content">
+          <header>Create an account</header>
+          <form action="#">
+            <div class="field input-field">
+              <input
+                class="input"
+                type="email"
+                placeholder="Full name"
+                id="inputName"
+                required
+              />
+            </div>
+
+            <div class="field input-field">
+              <input
+                class="input"
+                type="email"
+                placeholder="Email address"
+                id="inputEmail"
+              />
+            </div>
+
+            <div class="field input-field">
+              <input
+                class="password"
+                type="password"
+                placeholder="Password"
+                id="inputPassword"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+
+            <div class="field input-field">
+                <input
+                  class="password cnfrm-password"
+                  type="password"
+                  placeholder="confirm password"
+                  id="cnfrm-password"
+                />
+                <i class="bx bx-hide eye-icon"></i>
+              </div>
+
+            <p id="message"></p>
+            <div class="field button-field">
+              <button id="signup" onclick="checkPassword()">Signup</button>
+            </div>
+          </form>
+          
+
+          <div class="form-link">
+            <span
+              >Already have an account?
+              <a href="/index.html" class="link signup-link">Login</a></span
+            >
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            <i class="bx bxl-facebook facebook-icon"></i>
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+
+        <div class="media-options">
+          <a href="#" class="field google">
+            <i class="bx bxl-google facebook-icon"></i>
+            <span>Login with Google</span>
+          </a>
+          <br />
+          <p id="user">Logged in as:</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
