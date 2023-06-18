@@ -114,7 +114,6 @@ function handle_changeItemQuantity() {
 
 function handle_buyOrder() {
     if(itemsAdded.length <= 0){
-        alert("There is No Order to Place Yet! \nPlease Make an Order First.");
         return;
     }
     const cartContent = cart.querySelector(".cart-content");

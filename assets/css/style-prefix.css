@@ -493,13 +493,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   margin: 1.5rem auto 0 auto;
   padding: 12px 20px;
   border: none;
-  background: blue;
-  color: green;
+  background: rgb(255, 112, 112);
+  color: rgb(255, 255, 255);
   font: 1rem;
   cursor: pointer;
 }
 .btn-buy:hover{
-  background: red;
+  background: rgb(240, 10, 10);
 }
 #close-cart{
   position: absolute;

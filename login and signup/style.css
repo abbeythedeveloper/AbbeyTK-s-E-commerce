@@ -13,8 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(36,9,50);
-    background: linear-gradient(40deg, rgba(36,9,50,1) 0%, rgba(76,26,75,1) 50%, rgba(34,9,48,1) 100%);
+    background: rgb(255, 134, 134);
+    background: linear-gradient(120deg, rgb(255, 144, 144) 0%, rgb(255, 121, 121) 50%, rgb(166, 0, 0) 100%);
     column-gap: 30px;
 }
 
@@ -22,7 +22,7 @@
     background: white;
     max-width: 430px;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
     border-radius: 7px;
     position: absolute;
 }
@@ -30,7 +30,7 @@
 header{
     font-size: 26px;
     font-weight: 600;
-    color: #232836;
+    color: #ff9696;
     text-align: center;
 }
 
@@ -79,13 +79,13 @@ form{
 
 .field button{
     color:#fff;
-    background-color: #0171d3;
+    background-color: #ff8d8d;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .field button:hover{
-    background-color: #025eae;
+    background-color: #f61d1d;
 }
 
 .form-link{
