@@ -75,9 +75,8 @@ signInButton.addEventListener("click",(e) =>{
 //Lifecycle hooks
 auth.onAuthStateChanged(function (user){
     if (user) {
-        var email = user.mail
+        var email = user.email;
         var user = document.getElementById("user");
-        var text = document.createTextNode(email);
         user.appendChild(text);
         console.log(user);
     }
