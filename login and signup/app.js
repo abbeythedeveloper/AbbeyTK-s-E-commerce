@@ -82,8 +82,7 @@ auth.onAuthStateChanged(function (user){
         console.log(user);
     }
     else {
-        alert("user not registered signup or login now");
-        window.location = "login.html"
+        
     }
 });
 
