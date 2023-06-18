@@ -24,8 +24,6 @@ const firebaseConfig = {
         console.log(user);
     }
     else{
-        alert("user not authenticated kindly login or signup");
-        window.location = "login.html"
     }
   });
   //logout
